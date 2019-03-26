@@ -1,7 +1,7 @@
 {
   "name": "react-clipboard-components",
-  "version": "1.0.1",
-  "description": "",
+  "version": "1.0.2",
+  "description": "react clipboard components",
   "main": "./lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/icepy/react-clipboard.git"
+    "url": "git+https://github.com/icepy/react-clipboard-components.git"
   },
   "keywords": [],
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/icepy/react-clipboard/issues"
+    "url": "https://github.com/icepy/react-clipboard-components/issues"
   },
-  "homepage": "https://github.com/icepy/react-clipboard#readme",
+  "homepage": "https://github.com/icepy/react-clipboard-components#readme",
   "peerDependencies": {
     "react": ">=16.8.5"
   },
