@@ -2,12 +2,12 @@
 
 ![img](https://img.shields.io/github/license/icepy/react-clipboard-function-component.svg) ![img](https://img.shields.io/github/package-json/v/icepy/react-clipboard-function-component.svg)
 
-react clipboard component
+react clipboard components
 
 ## Install
 
 ```bash
-$ yarn add react-clipboard-component --save
+$ yarn add react-clipboard-components --save
 ```
 
 ## Usage
