@@ -1,3 +1,16 @@
+# ReactClipboardFunctionComponent
+
+react clipboard function component
+
+## Install
+
+```bash
+$ yarn add react-clipboard-function-component --save
+```
+
+## Used
+
+```js
 import React from "react";
 import * as ReactDOM from "react-dom";
 import ReactClipboardFunctionComponent from "../lib";
@@ -39,3 +52,4 @@ ReactDOM.render(
   <Home />,
   document.getElementById("app"),
 );
+```

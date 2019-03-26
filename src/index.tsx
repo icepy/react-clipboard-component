@@ -8,6 +8,10 @@ interface IProps {
   children?: React.ReactNode;
 }
 
+function onEmptyClick(e: React.MouseEvent) {
+  e.stopPropagation();
+}
+
 export default function ReactClipboardFunctionComponent (props: IProps){
   const rc = useRef<HTMLDivElement>(null);
   useEffect(() => {
@@ -37,9 +41,9 @@ export default function ReactClipboardFunctionComponent (props: IProps){
   });
 
   return (
-    <div>
-      <div ref={rc}></div>
+    <>
+      <div ref={rc} onClick={onEmptyClick}></div>
       { props.children }
-    </div>
+    </>
   )
 }
