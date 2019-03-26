@@ -1,5 +1,7 @@
 # ReactClipboardFunctionComponent
 
+![img](https://img.shields.io/github/license/icepy/react-clipboard-function-component.svg) ![img](https://img.shields.io/github/package-json/v/icepy/react-clipboard-function-component.svg)
+
 react clipboard function component
 
 ## Install
