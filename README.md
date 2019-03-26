@@ -10,7 +10,7 @@ react clipboard function component
 $ yarn add react-clipboard-function-component --save
 ```
 
-## Used
+## Usage
 
 ```js
 import React from "react";
@@ -27,7 +27,7 @@ class Home extends React.Component {
   render(){
     const { username } = this.state;
     return (
-      <div>
+      <>
         <button onClick={
           () => {
             this.setState({
@@ -35,16 +35,15 @@ class Home extends React.Component {
             })
           }
         }>
+          copy
           <ReactClipboardFunctionComponent
             text={username}
             onCopy={() => {
               // 复制成功
             }}
-          >
-          copy
-          </ReactClipboardFunctionComponent>
+          />
         </button>
-      </div>
+      </>
     )
   }
 }
@@ -55,3 +54,5 @@ ReactDOM.render(
   document.getElementById("app"),
 );
 ```
+
+> onCopy 中不要执行当前 setState 因为会死循环

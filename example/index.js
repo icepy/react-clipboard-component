@@ -6,13 +6,14 @@ class Home extends React.Component {
   constructor(props){
     super(props);
     this.state = {
-      username: ""
+      username: "",
+      open: false
     }
   }
   render(){
-    const { username } = this.state;
+    const { username, open } = this.state;
     return (
-      <div>
+      <>
         <button onClick={
           () => {
             this.setState({
@@ -20,16 +21,15 @@ class Home extends React.Component {
             })
           }
         }>
+          copy
           <ReactClipboardFunctionComponent
             text={username}
             onCopy={() => {
               // 复制成功
             }}
-          >
-          copy
-          </ReactClipboardFunctionComponent>
+          />
         </button>
-      </div>
+      </>
     )
   }
 }
