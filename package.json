@@ -1,0 +1,40 @@
+{
+  "name": "react-clipboard-function-component",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "ex": "webpack --config ./example/webpack.config.js --watch --mode=development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/icepy/react-clipboard.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/icepy/react-clipboard/issues"
+  },
+  "homepage": "https://github.com/icepy/react-clipboard#readme",
+  "peerDependencies": {
+    "react": ">=16.8.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.0",
+    "@babel/preset-env": "^7.4.2",
+    "@babel/preset-react": "^7.0.0",
+    "@types/clipboard": "^2.0.1",
+    "@types/react": "^16.8.8",
+    "babel-loader": "^8.0.5",
+    "react": "^16.8.5",
+    "react-dom": "^16.8.5",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
+  },
+  "dependencies": {
+    "clipboard": "^2.0.4"
+  }
+}
