@@ -1,6 +1,6 @@
 # ReactClipboardComponent
 
-![img](https://img.shields.io/github/license/icepy/react-clipboard-function-component.svg) ![img](https://img.shields.io/github/package-json/v/icepy/react-clipboard-function-component.svg)
+![img](https://img.shields.io/github/license/icepy/react-clipboard-function-component.svg) ![img](https://img.shields.io/github/last-commit/icepy/react-clipboard-components.svg) ![img](https://img.shields.io/npm/v/react-clipboard-components.svg)
 
 react clipboard components
 
